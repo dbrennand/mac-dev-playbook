@@ -12,7 +12,13 @@ This Ansible playbook installs and configures most of the software I use on my M
     xcode-select --install
     ```
 
-2. [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html):
+2. Install Rosetta 2:
+
+    ```bash
+    sudo softwareupdate --install-rosetta
+    ```
+
+3. [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html):
 
     ```bash
     export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$PATH"
@@ -20,15 +26,15 @@ This Ansible playbook installs and configures most of the software I use on my M
     pip3 install ansible
     ```
 
-3. Clone or download this repository to your Macbook.
+4. Clone or download this repository to your Macbook.
 
-4. Install the required Ansible roles and collections:
+5. Install the required Ansible roles and collections:
 
    ```bash
    ansible-galaxy install -r requirements.yml
    ```
 
-5. Execute the Ansible playbook:
+6. Execute the Ansible playbook:
 
     ```bash
     ansible-playbook main.yml --ask-become-pass
@@ -54,6 +60,7 @@ Applications (installed with Homebrew Cask):
   - [Visual Studio Code](https://formulae.brew.sh/cask/visual-studio-code#default)
   - [Spotify](https://formulae.brew.sh/cask/spotify#default)
   - [Signal](https://formulae.brew.sh/cask/signal#default)
+  - [vagrant-vmware-utility](https://formulae.brew.sh/cask/vagrant-vmware-utility#default)
 
 Packages (installed with Homebrew):
 
