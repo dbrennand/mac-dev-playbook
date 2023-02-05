@@ -64,10 +64,13 @@ homebrew_installed_packages:
   - podman
   - zsh-autosuggestions
   - zsh-syntax-highlighting
+  - packer
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-versions
+  - hashicorp/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -79,6 +82,8 @@ homebrew_cask_apps:
   - signal
   - aerial
   - vagrant-vmware-utility
+  - hashicorp-vagrant
+  - virtualbox-beta
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []

@@ -61,6 +61,8 @@ Applications (installed with Homebrew Cask):
   - [Spotify](https://formulae.brew.sh/cask/spotify#default)
   - [Signal](https://formulae.brew.sh/cask/signal#default)
   - [vagrant-vmware-utility](https://formulae.brew.sh/cask/vagrant-vmware-utility#default)
+  - [hashicorp-vagrant](https://formulae.brew.sh/cask/vagrant#default)
+  - [virtualbox-beta](https://github.com/Homebrew/homebrew-cask-versions/blob/master/Casks/virtualbox-beta.rb)
 
 Packages (installed with Homebrew):
 
@@ -80,6 +82,7 @@ Packages (installed with Homebrew):
   - tree
   - zsh-autosuggestions
   - zsh-syntax-highlighting
+  - packer
 
 ## Testing the Playbook
 
