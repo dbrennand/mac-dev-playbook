@@ -83,6 +83,7 @@ Packages (installed with Homebrew):
   - zsh-autosuggestions
   - zsh-syntax-highlighting
   - packer
+  - p7zip
 
 ## Testing the Playbook
 

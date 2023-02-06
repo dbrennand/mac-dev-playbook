@@ -65,6 +65,7 @@ homebrew_installed_packages:
   - zsh-autosuggestions
   - zsh-syntax-highlighting
   - packer
+  - p7zip
 
 homebrew_taps:
   - homebrew/core
