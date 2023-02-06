@@ -81,6 +81,7 @@ homebrew_cask_apps:
   - spotify
   - bitwarden
   - signal
+  - telegram
   - aerial
   - vagrant-vmware-utility
   - hashicorp-vagrant

@@ -60,6 +60,7 @@ Applications (installed with Homebrew Cask):
   - [Visual Studio Code](https://formulae.brew.sh/cask/visual-studio-code#default)
   - [Spotify](https://formulae.brew.sh/cask/spotify#default)
   - [Signal](https://formulae.brew.sh/cask/signal#default)
+  - [Telegram](https://formulae.brew.sh/cask/telegram#default)
   - [vagrant-vmware-utility](https://formulae.brew.sh/cask/vagrant-vmware-utility#default)
   - [hashicorp-vagrant](https://formulae.brew.sh/cask/vagrant#default)
   - [virtualbox-beta](https://github.com/Homebrew/homebrew-cask-versions/blob/master/Casks/virtualbox-beta.rb)
