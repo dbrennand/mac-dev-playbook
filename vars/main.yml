@@ -29,6 +29,8 @@ dockitems_persist:
     path: "/Applications/Discord.app/"
   - name: "Signal"
     path: "/Applications/Signal.app/"
+  - name: "Telegram"
+    path: "/Applications/Telegram.app/"
 
 configure_sudoers: true
 sudoers_custom_config: |
