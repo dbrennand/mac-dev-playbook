@@ -85,6 +85,14 @@ Packages (installed with Homebrew):
   - zsh-syntax-highlighting
   - packer
   - p7zip
+  - poetry
+  - openssl
+  - readline
+  - sqlite3
+  - xz
+  - zlib
+  - tcl-tk
+  - pyenv
 
 ## Testing the Playbook
 

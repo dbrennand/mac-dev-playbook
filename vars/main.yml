@@ -68,6 +68,14 @@ homebrew_installed_packages:
   - zsh-syntax-highlighting
   - packer
   - p7zip
+  - poetry
+  - openssl
+  - readline
+  - sqlite3
+  - xz
+  - zlib
+  - tcl-tk
+  - pyenv
 
 homebrew_taps:
   - homebrew/core

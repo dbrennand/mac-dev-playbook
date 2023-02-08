@@ -10,3 +10,10 @@
     path: ~/.zshrc
     line: source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
     state: present
+
+- name: Enable pyenv shims, autocompletion and shell function
+# https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv
+  ansible.builtin.lineinfile:
+    path: ~/.zshrc
+    line: eval "$(pyenv init -)"
+    state: present
