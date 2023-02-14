@@ -64,6 +64,7 @@ Applications (installed with Homebrew Cask):
   - [vagrant-vmware-utility](https://formulae.brew.sh/cask/vagrant-vmware-utility#default)
   - [hashicorp-vagrant](https://formulae.brew.sh/cask/vagrant#default)
   - [virtualbox-beta](https://github.com/Homebrew/homebrew-cask-versions/blob/master/Casks/virtualbox-beta.rb)
+  - [WhatsApp](https://formulae.brew.sh/cask/whatsapp#default)
 
 Packages (installed with Homebrew):
 

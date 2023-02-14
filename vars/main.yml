@@ -31,6 +31,8 @@ dockitems_persist:
     path: "/Applications/Signal.app/"
   - name: "Telegram"
     path: "/Applications/Telegram.app/"
+  - name: "WhatsApp"
+    path: "/Applications/WhatsApp.app/"
 
 configure_sudoers: true
 sudoers_custom_config: |
@@ -96,6 +98,7 @@ homebrew_cask_apps:
   - vagrant-vmware-utility
   - hashicorp-vagrant
   - virtualbox-beta
+  - whatsapp
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
