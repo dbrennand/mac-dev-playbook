@@ -15,5 +15,14 @@
 # https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv
   ansible.builtin.lineinfile:
     path: ~/.zshrc
-    line: eval "$(pyenv init -)"
+    line: 'eval "$(pyenv init -)"'
     state: present
+
+- name: Initialise SSH agent and add keys on terminal start
+  ansible.builtin.lineinfile:
+    path: ~/.zshrc
+    line: "{{ item }}"
+    state: present
+  with_items:
+    - 'eval "$(ssh-agent -s)"'
+    - 'eval "$(ssh-add)"'
